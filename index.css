@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fcfcfc; /* Blanco muy suave */
+  color: #333;
+}
+
+/* Clases personalizadas para formularios */
+.input-field {
+  @apply w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:border-teal-500 focus:ring-1 focus:ring-teal-500 transition-all font-light;
+}
